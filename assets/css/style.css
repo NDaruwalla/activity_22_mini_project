@@ -1,3 +1,96 @@
 /* css */
+/* overall style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body style*/
+body {
+
+}
+
+/* headings style*/
+h1, h2 {
+
+}
+
+/* main content style*/
+main {
+
+}
+
+/* li (list items) style*/
+li {
+
+}
+
+/* a (anchor) style*/
+a {
+
+}
+
+/* header and footer styles*/
+header,
+footer {
 
 
+}
+
+header {
+
+}
+
+footer {
+
+
+}
+
+/* figure/image styles*/
+
+figure {
+
+
+}
+
+img {
+
+}
+
+/* section style */
+
+section {
+
+}
+
+/* form style; center form on webpage */
+form {
+
+
+}
+
+label {
+
+
+}
+
+input, 
+textarea {
+
+
+}
+
+button {
+
+
+}
+
+/* class selectors*/
+.text-center {
+
+}
+
+.text-right {
+
+    
+}
