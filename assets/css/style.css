@@ -7,34 +7,44 @@
 
 /* body style*/
 body {
-
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: #FDF8F5;
+    color: #4f4846;
 }
 
 /* headings style*/
-h1, h2 {
-
+h1, 
+h2 {
+    margin: 20px;
 }
 
 /* main content style*/
 main {
-
+    padding: 60px 0;
 }
 
 /* li (list items) style*/
 li {
-
-}
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+ }
 
 /* a (anchor) style*/
 a {
-
+    text-decoration: none;
+    color: #FDF8F5;
 }
 
 /* header and footer styles*/
 header,
 footer {
-
-
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #266150;
 }
 
 header {
@@ -92,5 +102,5 @@ button {
 
 .text-right {
 
-    
+
 }
