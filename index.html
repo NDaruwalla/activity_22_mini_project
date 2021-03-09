@@ -16,7 +16,7 @@
 <body>
     <!-- header- introductory content for a section, article, or entire webpage; logo, navigation, author info -->
     <header>
-        <nav>
+        <nav class="text-right">
             <ul>
                 <li> <a href="https://github.com/NDaruwalla/">Github</a></li>
                 <li> <a href="#">Portfolio - Coming Soon!</a></li>
@@ -27,27 +27,29 @@
 
     <!-- semantic main element designates the primary webpage content -->
     <main>
-        <h1>My New Website</h1>
+        <h1 class="text-center">My New Website</h1>
         <figure>
             <img src="./assets/images/image-1.png" alt="Image of coming soon text">
             <figcaption class="text-center">This is a placeholder for text that will describe the portfolio.</figcaption>
         </figure>
 
         <section>
-            <h2>Contact Me</h2>
+            <h2 class="text-center">Contact Me</h2>
 
             <form>
                 <ul>
                     <li>
-                        <label for="name">Name:</label>
+                        <label class="text-right" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
                     </li>
 
                     <li>
-                        <label for="email">Email:</label>
+                        <label class="text-right" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
                     </li>
                 </ul>
 
-                <div>
+                <div class="text-center">
                     <button type="submit">SEND</button>
                 </div>
             </form>
@@ -55,7 +57,7 @@
     </main>
 
     <!-- semantic footer element designates copyright notices, footer nav, author bios, etc. -->
-    <footer>
+    <footer class="text-center">
         © 2021 My New Website Productions
     </footer>
 
